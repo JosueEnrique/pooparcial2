@@ -26,7 +26,7 @@ Este proyecto es una API REST hecha con **Node.js + Express + MongoDB** que perm
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/DavidUriasx/poo
+git clone https://github.com/JosueEnrique/pooparcial2
 cd postmail-api
 ```
 
@@ -45,7 +45,6 @@ MONGODB_URI=mongodb://localhost:27017/postmail
 PORT=3000
 ```
 
-> Cambia el URI si estás usando Atlas u otra base.
 
 ### 4. Iniciar el servidor
 
@@ -84,8 +83,8 @@ npm start
 
   ```json
   {
-    "usuarioId": "USR001",
-    "producto": "ID_DEL_PRODUCTO"
+    "usuarioId": "123",
+    "producto": "id"
   }
   ```
 
@@ -109,9 +108,9 @@ npm start
 
   ```json
   {
-    "nombre": "Laptop",
-    "descripcion": "Una laptop gamer ROG",
-    "peso": 4
+    "nombre": "pc",
+    "descripcion": "pc gamer xd",
+    "peso": 30
   }
   ```
 
